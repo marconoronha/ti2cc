@@ -65,7 +65,7 @@ public class ProdutoService {
 			if (tipo == FORM_INSERT){
 				action += "insert";
 				name = "Inserir Produto";
-				descricao = "leite, pão, ...";
+				descricao = "teste, pão, ...";
 				buttonLabel = "Inserir";
 			} else {
 				action += "update/" + produto.getID();
@@ -82,7 +82,7 @@ public class ProdutoService {
 			umProduto += "\t\t\t<td colspan=\"3\" align=\"left\">&nbsp;</td>";
 			umProduto += "\t\t</tr>";
 			umProduto += "\t\t<tr>";
-			umProduto += "\t\t\t<td>&nbsp;Descrição: <input class=\"input--register\" type=\"text\" name=\"descricao\" value=\""+ descricao +"\"></td>";
+			umProduto += "\t\t\t<td>&nbsp;Marca: <input class=\"input--register\" type=\"text\" name=\"descricao\" value=\""+ descricao +"\"></td>";
 			umProduto += "\t\t\t<td>Preco: <input class=\"input--register\" type=\"text\" name=\"preco\" value=\""+ produto.getPreco() +"\"></td>";
 			umProduto += "\t\t\t<td>Quantidade: <input class=\"input--register\" type=\"text\" name=\"quantidade\" value=\""+ produto.getQuantidade() +"\"></td>";
 			umProduto += "\t\t</tr>";
